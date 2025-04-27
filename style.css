@@ -1,0 +1,118 @@
+/* General styles */
+body {
+    background-color: hsl(30, 38%, 92%);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  
+  /* Card container */
+  .card {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 20px;
+  }
+  
+  /* Product image */
+  .product-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Card content */
+  .card-content {
+    padding: 20px;
+  }
+  
+  .product-category {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 12px;
+  }
+  
+  .product-title {
+    font-family: 'Fraunces', serif;
+    font-size: 32px;
+    line-height: 1;
+    color: hsl(212, 21%, 14%);
+    margin-top: 10px;
+  }
+  
+  .product-description {
+    margin-top: 20px;
+    line-height: 1.5;
+  }
+  
+  .price {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .current-price {
+    font-family: 'Fraunces', serif;
+    font-size: 32px;
+    color: hsl(158, 36%, 37%);
+  }
+  
+  .original-price {
+    text-decoration: line-through;
+  }
+  
+  /* Button styles */
+  .add-to-cart {
+    width: 100%;
+    background-color: hsl(158, 36%, 37%);
+    color: hsl(0, 0%, 100%);
+    border: none;
+    padding: 15px;
+    border-radius: 5px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .add-to-cart:hover,
+  .add-to-cart:focus {
+    background-color: hsl(158, 42%, 18%);
+    outline: none;
+  }
+  
+  /* Attribution */
+  .attribution {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+  
+  /* Desktop layout */
+  @media (min-width: 768px) {
+    .card {
+      flex-direction: row;
+    }
+    .product-image {
+      height: 100%;
+      object-fit: cover;
+    }
+    .card-content {
+      padding: 30px;
+    }
+  }
