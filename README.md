@@ -68,6 +68,7 @@ This project helped me solidify several key skills:
   ```
 - **Interactivity**: Adding hover and focus states to the "Add to Cart" button to enhance user experience.
 - **Image Handling**: Using the `<picture>` element to switch between mobile and desktop images for optimal display.
+- **Accessibility and Scalability**: Learned to use rem units instead of px for font sizes to improve scalability and accessibility.
 
 ### Useful Resources
 
